@@ -30,5 +30,7 @@ deploy:
   script:
     - echo "Deploy to Azure App Service"
   environment:
+    name: production environment
+    url: https://henok-lut-devops-assignment-g7gzbwgrehhebdcq.northeurope-01.azurewebsites.net/
     # define the environment name
     # define the environment url
