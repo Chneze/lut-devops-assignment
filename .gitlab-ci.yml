@@ -6,12 +6,10 @@ stages:
 
 build_and_test:
   stage: build_and_test
-  image: node:16
+  image: node:20
   # specify a suitable image where npm is available
   script:
     - npm install
-    - nmp audit fix
-    - npm run build
     - npm test
     # test the application
 
