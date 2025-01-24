@@ -26,5 +26,10 @@ app.get("/feature-5", (req, res) => {
   res.send("Feature 5! and the pipeline worked automatically");
 });
 
+app.get("/feature-5", (req, res) => {
+  res.send("Feature 6! and the pipeline worked automatically and finally");
+});
+
+
 
 module.exports = app;
