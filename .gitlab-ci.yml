@@ -6,7 +6,7 @@ stages:
 
 build_and_test:
   stage: build_and_test
-  image: node:20
+  image: node:latest
   # specify a suitable image where npm is available
   script:
     - npm install
