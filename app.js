@@ -22,6 +22,9 @@ app.get("/feature-4", (req, res) => {
   res.send("Feature 4!");
 });
 
+app.get("/feature-5", (req, res) => {
+  res.send("Feature 5!");
+});
 
 
 module.exports = app;
