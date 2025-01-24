@@ -20,6 +20,8 @@ containerize:
     - docker:dind
   script:
     - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+    - docker build -t registry.gitlab.com/chneze1994/lut-devops-assignment .
+    - docker push registry.gitlab.com/chneze1994/lut-devops-assignment
     # build and tag the image (refer to the gitlab container registry for the correct tagname)
     # push the image to the gitlab container registry
 
