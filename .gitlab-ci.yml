@@ -10,7 +10,8 @@ build_and_test:
   # specify a suitable image where npm is available
   script:
     - npm install
-    - npm build
+    - nmp audit fix
+    - npm run build
     - npm test
     # test the application
 
