@@ -20,7 +20,7 @@ app.get("/feature-3", (req, res) => {
 
 app.get("/feature-4", (req, res) => {
   res.send("Feature 4!");
-});
+})
 
 
 module.exports = app;
